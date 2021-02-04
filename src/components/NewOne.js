@@ -18,6 +18,7 @@ export default class NewOne extends Component {
                     <div className="row justify-content-center">
 
 
+
                         {products.map((product) => {
                             if (product.newone === true) {
                                 return (
