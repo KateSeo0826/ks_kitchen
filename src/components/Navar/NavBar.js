@@ -56,7 +56,7 @@ export default class NavBar extends Component {
                 activeClassName="nav-item nav-link-active"
               >
                 Home
-            </NavLink>
+              </NavLink>
               <NavLink
                 exact
                 to="/products"
@@ -64,7 +64,7 @@ export default class NavBar extends Component {
                 activeClassName="nav-item nav-link-active"
               >
                 Products
-            </NavLink>
+              </NavLink>
               <NavLink
                 exact
                 to="/contact"
@@ -72,7 +72,7 @@ export default class NavBar extends Component {
                 activeClassName="nav-item nav-link-active"
               >
                 contact
-            </NavLink>
+              </NavLink>
               <NavLink
                 exact
                 to="/cart"
@@ -83,8 +83,7 @@ export default class NavBar extends Component {
                   <i className="fas fa-cart-plus"></i>
                 </span>
                 Cart
-            </NavLink>
-
+              </NavLink>
             </div>
           </Navbar.Collapse>
         </Navbar>

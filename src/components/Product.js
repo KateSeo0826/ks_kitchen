@@ -86,7 +86,7 @@ export default class Product extends Component {
               <div
                 className="img-container"
                 onClick={() => {
-                  value.handleDetatil(id);
+                  value.handleDetail(id);
                 }}
               >
                 <Link to="/details">
@@ -108,10 +108,10 @@ export default class Product extends Component {
                     <p className="text-capitalize mb-0" disabled>
                       {" "}
                       added
-                </p>
+                    </p>
                   ) : (
-                      <i className="fas fa-cart-plus"></i>
-                    )}
+                    <i className="fas fa-cart-plus"></i>
+                  )}
                 </button>
               </div>
             )}

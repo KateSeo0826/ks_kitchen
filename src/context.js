@@ -33,7 +33,7 @@ class ProductProvider extends Component {
     return product;
   }
 
-  handleDetatil = (id) => {
+  handleDetail = (id) => {
     const product = this.getItem(id);
     this.setState(() => {
       return { detailProduct: product }
@@ -155,7 +155,7 @@ class ProductProvider extends Component {
       <ProductContext.Provider
         value={{
           ...this.state,
-          handleDetatil: this.handleDetatil,
+          handleDetail: this.handleDetail,
           addToCart: this.addToCart,
           openModal: this.openModal,
           closeModal: this.closeModal,

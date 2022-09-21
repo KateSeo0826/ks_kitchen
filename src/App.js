@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import NavBar from './components/NavBar';
+import NavBar from './components/Navar/NavBar';
 import ProductList from './components/ProductList';
 import Details from './components/Details';
 import Cart from './components/Cart/Cart';

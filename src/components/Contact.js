@@ -43,10 +43,7 @@ label{
 const ContactUs = () => {
     return (
         <>
-
-
             <ContactForm className="contact_hero">
-
                 <div className="container mt-10">
                     <div className="row">
                         <div className="contact-form col-10">
@@ -71,15 +68,12 @@ const ContactUs = () => {
 
                             <button className="btn">
                                 Send
-                        </button>
+                            </button>
                         </div>
                     </div>
-
-
                 </div>
             </ContactForm>
         </>
     )
 }
-
 export default ContactUs

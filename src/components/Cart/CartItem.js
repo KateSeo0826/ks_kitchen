@@ -6,7 +6,7 @@ const CartItem = ({ item, value }) => {
     return (
         <div className="row my-2 text-capitalize text-center">
             <div className="col-10 mx-auto col-lg-2">
-                <img src={img} style={{ width: "5rem", height: "5rem" }} alt="poduct" className="img-fluid" />
+                <img src={img} style={{ width: "5rem", height: "5rem" }} alt="product" className="img-fluid" />
             </div>
             <div className="col-10 mx-auto col-lg-2">
                 <span className="d-lg-none">product :</span>{title}
